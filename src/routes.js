@@ -14,22 +14,22 @@ const routes = [
   },
   {
     method: "GET",
-    path: "/notes",
+    path: "/books",
     handler: getAllBooksHandler,
   },
   {
     method: "GET",
-    path: "/notes/{id}",
+    path: "/books/{id}",
     handler: getBookByIdHandler,
   },
   {
     method: "PUT",
-    path: "/notes/{id}",
+    path: "/books/{id}",
     handler: editBookByIdHandler,
   },
   {
     method: "DELETE",
-    path: "/notes/{id}",
+    path: "/books/{id}",
     handler: deleteBookByIdHandler,
   },
 ];
